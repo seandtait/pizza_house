@@ -1,0 +1,86 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    background-color: rgb(34, 16, 9);
+    max-height: 400px;
+    overflow: hidden;
+    border-bottom: 1px solid brown;
+}
+
+.toast-container {
+    width: 100%;
+    /* Make sure the container spans the full width */
+    display: flex;
+    justify-content: center;
+    /* Center the toast within the container */
+}
+
+.toast {
+    flex-grow: 1;
+    /* Allow the toast to grow to fill the container */
+    max-width: none;
+    /* Remove the default max-width */
+}
+
+header .navbar-nav li a {
+    color: black;
+    padding: 0.1rem;
+    margin: 1rem;
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+}
+
+@media (min-width: 768px) {
+    header .navbar-nav li a {
+        color: black;
+        padding: 0.5rem;
+        margin: 2rem;
+        font-size: 2rem;
+        border-bottom: 1px solid white;
+    }
+}
+
+.card img {
+    overflow: hidden;
+    width: 100%;
+    height: 225;
+    object-fit: cover;
+}
+
+header .navbar-nav li :hover {
+    color: brown;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.content {
+    min-height: 300px;
+}
+
+.album .col {
+    margin-bottom: 2rem;
+}
+
+
+footer {
+    /* Vertically center the text there */
+    color: #ccc;
+    background-color: #3b3b3b;
+}
+
+.nav-item a {
+    color: #ccc;
+}
+
+.socials {
+    font-size: 2rem;
+}
+
+footer .nav-item a:hover {
+    color: #ccc;
+    filter: brightness(1.5);
+}
